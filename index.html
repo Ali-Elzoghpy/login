@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+    <form  onclick="formBehavior()"  action="">
+        <div class="content mx-auto mt-5 p-5   text-center">
+            <div class="container">
+
+                <h1 class="">Smart Login System</h1>
+
+                <input id="emailInput" class="form-control rounded-2 my-3 p-2" type="email"
+                    placeholder="Enter Yr Email">
+                <input id="passwordInput" type="password" class="form-control rounded-2 my-3 p-2"
+                    placeholder="Enter Password">
+                <p id="incorrectEmail" class="text-danger d-none">    incorrect email or password</p>
+                <p id="inputsInquiedtAlert" class="text-danger d-none"> All inputs is required
+
+                </p>
+                <button type="submit" id="loginBtn" onclick="logIn()" class="btn btn-outline-info mb-2  w-100 m-0">Login</button>
+
+                <small class="text-white ">Don’t have an account? </small>
+                <a href="./signup.html" id="signupAnchor" class="text-white mx-2 "> Sign Up</a>
+
+            </div>
+        </div>
+    </form>
+<script>
+ 
+</script>
+
+<script src="./js/main.js"></script>
+</body>
+
+</html>
